@@ -22,14 +22,11 @@ HTML CSS
 
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
 
 
 ## Screenshots
 ![Desktop](https://user-images.githubusercontent.com/73693874/175781341-77997317-8d0a-4960-9e32-e44b335ea1bc.jpg)
+![Mobile](https://user-images.githubusercontent.com/73693874/175781447-50ade5de-6880-4f2e-91e6-a65504d5f9c9.jpg)
 
 
 ## Project Status
@@ -44,15 +41,3 @@ To do:
 - Desktop 
 - Mobile
 
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
