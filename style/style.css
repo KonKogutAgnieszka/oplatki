@@ -4,7 +4,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-size:21px;
+    font-size:30px;
 }
 
 :root{
@@ -21,18 +21,22 @@ html{
 
 body{
     min-height: 100vh;
+    width: 100vw;
 
     background-image: var(--bg-color);
     background-repeat: no-repeat;
     
-    font-family: 'Nunito', sans-serif; ;
+    font-family: 'Nunito', sans-serif;
+
+    overflow: hidden;
 }
 
 h1{
+    display: inline-block;
     font-size: var(--f-h1);
 }
 
-h1{
+h2{
     font-size: var(--f-h2);
 }
 
@@ -40,31 +44,4 @@ p{
     font-size: var(--f-p);
 }
 
-nav{
-    transform: translateX(100%);
-}
 
-.hamburger{
-    display: block;
-    position: relative;
-}
-
-.hamburger,
-.haburger::before,
-.hamburger::after{
-    background-color: black;
-    width: 2em;
-    height: 3px;
-    border-radius: 1em;
-}
-
-.hamburger::before,
-.hamburger::after{
-    content:'';
-    position: absolute;
-    left:0;
-    right: 0;
-}
-
-.hamburger::before{top: 6px;}
-.hamburger::after{bottom: 6px;}
