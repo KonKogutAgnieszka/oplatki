@@ -1,16 +1,11 @@
-/* navigation */
-
-nav{
-    transform: translateX(100%);
-}
-
-.nav-toggle{
-
-}
+/* hamburger menu */
 
 .hamburger{
     display: block;
-    position: relative;
+    position: fixed;
+    top:30px;
+    right: 20px;
+    z-index: 1;
 }
 
 .hamburger,
@@ -33,7 +28,50 @@ nav{
 .hamburger::before{top: 12px;}
 .hamburger::after{bottom: 12px;}
 
+/*nav*/
+
+.nav{
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 50vh;
+    background-color: #fff;
+    padding-top: 50px;
+    z-index: 1;
+}
+
+.nav--hidden{
+    transform: translateX(-100vw);
+}
+
+.nav__link{
+    cursor: pointer;
+    display: inline-block;
+    width:100%;
+    padding-top: 10%;
+    text-align: center;
+    font-size: var(--f-p);
+    color:black;
+    text-decoration: none;
+}
+
 /* header */ 
+
+
+/* main */
+
+img.cake{
+    display: block;
+    flex-grow:1;
+    width:100vw;
+
+    transform:scaleX(-1);
+    opacity: 0.3;
+}
+
+
+
+/* header 
 
 .head{
     margin: 0 auto;
@@ -41,7 +79,8 @@ nav{
     height: 10vh;
 
     display:flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -55,8 +94,9 @@ button.nav-toggle{
     cursor: pointer;
 }
 
-/* center */
 
+
+@media(min-width:800px){
 div.main{
     margin: 0 auto;
     width:100%;
@@ -88,19 +128,7 @@ button.order a{
 }
 
 
-img.cake{
-    display: block;
-    width: 20%;
-    flex-grow:1;
 
-    transform:scaleX(-1);
-    opacity: 0.3;
-    height: 80%;
-    width: auto;
 }
 
 /*gallery*/
-
-section.gallery{
-    height: 100vh;
-}
