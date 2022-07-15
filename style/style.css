@@ -6,7 +6,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-size:30px;
+    font-size:15px;
 }
 
 :root{
@@ -31,10 +31,8 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
-/*
 
 h1{
-    display: inline-block;
     font-size: var(--f-h1);
 }
 

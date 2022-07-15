@@ -2,10 +2,7 @@
 
 .hamburger{
     display: block;
-    position: fixed;
-    top:30px;
-    right: 20px;
-    z-index: 1;
+    position: relative;
 }
 
 .hamburger,
@@ -55,15 +52,38 @@
     text-decoration: none;
 }
 
+button.nav--toggle{
+    height: 100%;
+    width: 100%;
+    background-color: none;
+    color: inherit;
+	border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    
+    z-index: 1;
+}
+
 /* header */ 
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2%;
+}
+
+.header__h1{
+    position: relative;
+}
 
 /* main */
 
 img.cake{
     display: block;
     flex-grow:1;
-    width:100vw;
+    width:90vw;
 
     transform:scaleX(-1);
     opacity: 0.3;
