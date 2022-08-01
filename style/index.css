@@ -35,18 +35,18 @@
     background-color: #fff;
     padding-top: 50px;
     z-index: 1;
-    animation: linear 5s;
+    transition: .5s;
 }
 
 .nav--hidden{
-    transform: translateX(-100vw);
+    transform: translateX(200vw);
 }
 
 .nav__link{
     cursor: pointer;
     display: inline-block;
     width:100%;
-    padding-top: 10%;
+    padding: 8%;
     text-align: center;
     font-size: var(--f-p);
     color:black;
@@ -61,6 +61,16 @@ button.nav--toggle{
     cursor: pointer;
     outline: inherit;
     z-index: 1;
+}
+
+@media (orientation:landscape){
+    .nav{
+        height: 100vh;
+    }
+
+    .nav__link{
+        padding:3%;
+    }
 }
 
 /* header */ 
@@ -103,6 +113,22 @@ img.cake{
 
     transform:scaleX(-1);
     opacity: 0.3;
+}
+
+@media (orientation:landscape){
+    .main{
+        display: flex;
+        max-height: 80vh;
+    }
+
+    .main__subtitle{
+        width: 90%;
+        padding:5% 5%;
+    } 
+
+    img.cake{
+        width: 50%;  
+    }
 }
 
 /*gallery*/
@@ -180,7 +206,7 @@ footer img{
 
 @keyframes text{
     0%{
-        transform: translateX(-100vh);
+        transform: translateX(-100vw);
     }
     10%{
         transform: translateX(0);
@@ -190,8 +216,9 @@ footer img{
     }
 
     100%{
-        transform: translateX(100vh);
+        transform: translateX(100vw);
     }
 }
+
 
 
