@@ -1,19 +1,31 @@
-const photos = ['../img/gallery/AgaManiu.jpg',
-'../img/gallery/AgaManiu2.jpg',
-'../img/gallery/AgaManiu3.jpg',
-'../img/gallery/EwelinaNestoruk1.jpg',
-'../img/gallery/JoannaFortuńska1.jpg',
-'../img/gallery/KasiaRobaszek.jpg',
-'../img/gallery/MoskalIzabela.jpg',
-'../img/gallery/MoskalIzabela2.jpg'
+const photos = ['../img/gallery/1.png',
+'../img/gallery/2.png',
+'../img/gallery/3.png',
+'../img/gallery/4.png',
 ]
 
-const photoDivs = [...document.querySelectorAll('.photo')];
+const authors = ['Irena Luszczyk',
+'Ewelina Puchalska',
+'Anna Kopiec',
+'Natalia Kowalska',
+]
+
+const photoDiv = document.querySelector('div.photo');
+const photoSub = document.querySelector('.photo__sub');
+
+
+let i = 0;
 
 function changePhoto(){
-    for(let i = 0;i<photoDivs.length;i++){
-        photoDivs[i].style.backgroundImage = `url(${photos[i]})`
+    if(i<photos.length){
+        photoDiv.style.backgroundImage = `url(${photos[i]})`;
+        photoSub.textContent = `${authors[i]}`;
+        i++
+    }else{
+        photoDiv.style.backgroundImage = `url(${photos[0]})`
+        photoSub.textContent = `${authors[0]}`;
+        i=1;
     }
 }
 
-changePhoto()
+setInterval(changePhoto,4000);
