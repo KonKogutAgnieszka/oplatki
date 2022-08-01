@@ -1,0 +1,31 @@
+div.faq{
+    display: block;
+    width: 90vw;
+    margin:5vw;
+}
+
+.faq__unfold--toggle{
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    border-top: calc(var(--f-p) / 2) solid transparent;
+    border-bottom: calc(var(--f-p) / 2) solid transparent;
+    
+    border-left: calc(var(--f-p) / 2) solid black;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+.content{
+    display: none;
+}
+
+a.faq__return{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+}
