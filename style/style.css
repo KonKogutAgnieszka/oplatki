@@ -14,6 +14,7 @@
 
     --f-h1:3rem;
     --f-h2:2rem;
+    --f-h3:1.5rem;
     --f-p:1.2rem;
 }
 
@@ -40,6 +41,10 @@ h2{
     font-size: var(--f-h2);
 }
 
+h3{
+    font-size: var(--f-h3);
+}
+
 p{
     font-size: var(--f-p);
 }
@@ -50,7 +55,7 @@ button.simple{
   height: 40px;
   background-color: white;
   border: 2px solid black;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 button a{

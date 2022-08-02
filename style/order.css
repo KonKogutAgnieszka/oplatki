@@ -1,0 +1,30 @@
+body{
+    width: 100vw;
+}
+.form{
+    margin:5vh;
+    width: 80%;
+    height: 80%;
+    text-align: left;
+}
+
+input.form__input--radio{
+    display: inline-block;
+    margin: 2% 0;
+}
+
+input.form__input--file{
+    width: 100%;
+    margin: 4%;
+}
+
+label a{
+    color:#888;
+    text-decoration: none;
+    font-size: var(--f-h3);
+}
+
+button.submit{
+    display: block;
+
+}

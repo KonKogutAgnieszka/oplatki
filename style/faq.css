@@ -20,12 +20,7 @@ ul{
     list-style: none;
 }
 
-.content{
-    display: none;
-}
-
-a.faq__return{
-    display: inline-block;
-    text-decoration: none;
-    color:black;
+.faq__return{
+    position: relative;
+    margin-bottom: 2vh;
 }
