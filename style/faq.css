@@ -1,19 +1,31 @@
 div.faq{
     display: block;
     width: 90vw;
-    margin:5vw;
+    margin:5%;
 }
 
-.faq__unfold--toggle{
+.triangle{
     display: inline-block;
     width: 0; 
     height: 0; 
     border-top: calc(var(--f-p) / 2) solid transparent;
     border-bottom: calc(var(--f-p) / 2) solid transparent;
-    
     border-left: calc(var(--f-p) / 2) solid black;
+
+    transition: .5s;
 }
 
+div.down{
+    transform: rotate(90deg);
+}
+
+.content{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
 
 
 ul{

@@ -41,4 +41,7 @@ To do:
 
 - Form,
 - Desktop,
-- Mobile,
+
+To improve:
+
+-faq animation,
