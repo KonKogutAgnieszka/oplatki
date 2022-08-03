@@ -1,14 +1,14 @@
-body{
-    height: 100vh;
-    background-image:url(./img/header.png);
-    background-position: left bottom;
-    background-size: 60%;
-    background-repeat: no-repeat;
+div.about{
+    margin:6%;
+    width: 90%;
+    height: 80%;
+    font-size: var(--f-h3);
 }
 
-div.about{
-    margin:5%;
-    width: 90%;
-    height: 90%;
-    font-size: var(--f-h3);
+.messenger{
+    margin-top: 5%;
+    height: var(--f-h2) ;
+}
+
+.about__return{
 }
