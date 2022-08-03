@@ -1,9 +1,9 @@
-const photos = ['./../img/gallery/1.png',
-'./../img/gallery/2.png',
-'./../img/gallery/3.png',
-'./../img/gallery/4.png',
-'./../img/gallery/5.png',
-'./../img/gallery/6.png',
+const photos = ['./img/gallery/1.png',
+'./img/gallery/2.png',
+'./img/gallery/3.png',
+'./img/gallery/4.png',
+'./img/gallery/5.png',
+'./img/gallery/6.png',
 ]
 
 const authors = ['Irena Luszczyk',
