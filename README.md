@@ -40,8 +40,7 @@ Project is: _in progress_
 To do:
 
 - Form,
-- Desktop,
 
 To improve:
 
--faq animation,
+-Form,

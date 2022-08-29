@@ -123,12 +123,20 @@ img.cake{
 
     .main__subtitle{
         width: 90%;
-        padding:5% 5%;
+        padding:2% 4%;
     } 
 
     img.cake{
         width: 50%;  
     }
+}
+
+@media (orientation:landscape)  and (min-width:800px){
+    .main__subtitle{
+        width: 90%;
+        padding:0% 4%;
+    } 
+
 }
 
 /*gallery*/
@@ -168,6 +176,13 @@ div.photo{
 
 p.photo__sub{
     animation: text 4s infinite;
+}
+
+@media (orientation:landscape)  and (min-width:800px){
+    div.photo{
+        height: 80%;
+    } 
+
 }
 
 /*footer*/
