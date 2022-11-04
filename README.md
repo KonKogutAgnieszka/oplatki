@@ -39,8 +39,4 @@ Project is: _in progress_
 
 To do:
 
-- Form,
-
-To improve:
-
--Form,
+- add blog

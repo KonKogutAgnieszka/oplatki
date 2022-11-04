@@ -1,48 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zamów</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/order.css">
-</head>
-<body>
-    <form class="form" method="POST" action="https://formsubmit.io/send/oplateczki@gmail.com" enctype="multipart/form-data">
-    <label for="upload"><h3>1.Wybierz zdjęcie (format JPG,PNG,PDF)</h3></label>
-    <input required class="form__input--file" type="file" name="upload" accept="image/png, image/jpeg, PDF" >
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/order.css" />
+  </head>
+  <body>
+    <form class="form" action="https://formspree.io/f/mdojpyko" method="POST">
+      <label for="upload"
+        ><h3>1.Wybierz zdjęcie (format JPG,PNG,PDF)</h3></label
+      >
+      <input
+        required
+        class="form__input--file"
+        type="file"
+        name="upload"
+        accept="image/png, image/jpeg, PDF"
+      />
 
-    <label for="size"><h3>2.Wybierz rozmiar</h3></label>
-    <input required class="form__input--radio" type="radio" name="size" id="A5"><label for="size">A5</label>
-    <input class="form__input--radio" type="radio" name="size" id="A4"><label for="size">A4</label>
-    <input class="form__input--radio" type="radio" name="size" id="A3"><label for="size">A3</label><br>
-    <input class="form__input--radio" type="radio" name="size" id="muffins5cm"><label for="size">muffinki 5cm - 20 sztuk</label><br>
-    <input class="form__input--radio" type="radio" name="size" id="Amuffins6cm"><label for="size">muffinki 6cm - 12 sztuk</label>
+      <label for="size"><h3>2.Wybierz rozmiar</h3></label>
+      <input
+        required
+        class="form__input--radio"
+        type="radio"
+        name="size"
+        id="A5"
+      /><label for="size">A5</label>
+      <input
+        class="form__input--radio"
+        type="radio"
+        name="size"
+        id="A4"
+      /><label for="size">A4</label>
+      <input
+        class="form__input--radio"
+        type="radio"
+        name="size"
+        id="A3"
+      /><label for="size">A3</label><br />
+      <input
+        class="form__input--radio"
+        type="radio"
+        name="size"
+        id="muffins5cm"
+      /><label for="size">muffinki 5cm - 20 sztuk</label><br />
+      <input
+        class="form__input--radio"
+        type="radio"
+        name="size"
+        id="Amuffins6cm"
+      /><label for="size">muffinki 6cm - 12 sztuk</label>
 
-    <label for="type"><h3>3.Wybierz rodzaj wydruku (jeśli nie wiesz jaki wydruk wybrać kliknij <a href="faq.html">tutaj</a>)</h3></label>
-    <input 
-    required
-    class="form__input--radio"
-    type="radio"
-    name="type"
-    id="waflowy">
-    <label for="type">waflowy</label>
-    <input 
-    class="form__input--radio"
-    type="radio"
-    name="type"
-    id="cukrowy">
-    <label for="type">cukrowy</label>
+      <label for="type"
+        ><h3>
+          3.Wybierz rodzaj wydruku (jeśli nie wiesz jaki wydruk wybrać kliknij
+          <a href="faq.html">tutaj</a>)
+        </h3></label
+      >
+      <input
+        required
+        class="form__input--radio"
+        type="radio"
+        name="type"
+        id="waflowy"
+      />
+      <label for="type">waflowy</label>
+      <input class="form__input--radio" type="radio" name="type" id="cukrowy" />
+      <label for="type">cukrowy</label>
 
-    <label for="size"><h3>4.Wybierz sposób wysyłki</h3></label>
-    <input required class="form__input--radio" type="radio" name="shipment"><label for="size">Kurier DPD(17zł)</label>
+      <label for="size"><h3>4.Wybierz sposób wysyłki</h3></label>
+      <input
+        required
+        class="form__input--radio"
+        type="radio"
+        name="shipment"
+      /><label for="size">Kurier DPD(17zł)</label>
 
-    <label for="info"><h3>5.Dodatkowe informacje</h3></label>
-    <input class="form__input--text" type="text" name="info"><label for="info"></label>
-    
-    <input name="_redirect" type="hidden" id="name" value="https://konkogutagnieszka.github.io/thank.html/">
+      <label for="info"><h3>5.Dodatkowe informacje</h3></label>
+      <input class="form__input--text" type="text" name="info" /><label
+        for="info"
+      ></label>
 
-    <button class="simple submit">zamów</button>
+      <input
+        name="_redirect"
+        type="hidden"
+        id="name"
+        value="https://konkogutagnieszka.github.io/thank.html/"
+      />
+
+      <button class="simple submit" type="submit">zamów</button>
     </form>
-</body>
+  </body>
 </html>
