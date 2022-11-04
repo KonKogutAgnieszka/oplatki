@@ -1,7 +1,7 @@
 Oplatki
 
 > Website with edible prints. [PL]
-> Live demo [_here_](https://www.example.com).
+> Live demo [_here_](https://konkogutagnieszka.github.io/oplatki/).
 
 ## Table of Contents
 
